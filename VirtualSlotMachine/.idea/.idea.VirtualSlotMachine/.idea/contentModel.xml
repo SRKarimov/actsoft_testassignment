@@ -27,6 +27,20 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="VirtualSlotMachine.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="assets" t="Include">
+            <e p="SlotMachineSprite.png" t="Include" />
+          </e>
+          <e p="css" t="Include">
+            <e p="main.css" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="js" t="Include">
+            <e p="jquery.backgroundPosition.js" t="Include" />
+            <e p="jquery.spritely.js" t="Include" />
+            <e p="main.js" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="VirtualSlotMachine.sln" t="IncludeFlat" />
     </e>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Slot Machine in Javascript</title>
+    <meta name="description" content="Welcome to the Javascript version of Slot Machine written by Saurabh Odhyan">
+    <meta name="keywords" content="javascript, jquery, spritely, animation, sprite, background position, slot, game, games, saurabh, odhyan">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/jquery.spritely.js"></script>
+    <script src="js/jquery.backgroundPosition.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="hd">
+    </div>
+    <div class="bd">
+        <h1>Virtual Slot Machine</h1>
+        <div>
+            <p id="balance">Balance: 100</p>
+            <div>
+                <div class="bet_parent">
+                    <label for="bet">Your bet: </label>
+                    <input id="bet" class="bet_child" type=number value=1 min=1 max=3 style="font: 13pt Courier; width: 3ch; height: 2em">
+                    <button id="maxbet" class="bet_child">Max bet</button>
+                </div>
+                <div class="container">
+                    <div class="slot-wrapper">
+                        <div id="slot1" class="slot"></div>
+                        <div id="slot2" class="slot"></div>
+                        <div id="slot3" class="slot"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="result"></div>
+                    <div>
+                        <button id="control">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

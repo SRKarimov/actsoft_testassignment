@@ -1,0 +1,14 @@
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/bin/Debug/netcoreapp2.2/VirtualSlotMachine.deps.json
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/bin/Debug/netcoreapp2.2/VirtualSlotMachine.runtimeconfig.json
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/bin/Debug/netcoreapp2.2/VirtualSlotMachine.runtimeconfig.dev.json
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/bin/Debug/netcoreapp2.2/VirtualSlotMachine.dll
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/bin/Debug/netcoreapp2.2/VirtualSlotMachine.pdb
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.csprojAssemblyReference.cache
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.csproj.CoreCompileInputs.cache
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.RazorAssemblyInfo.cache
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.RazorAssemblyInfo.cs
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.AssemblyInfoInputs.cache
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.AssemblyInfo.cs
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.RazorTargetAssemblyInfo.cache
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.dll
+/Users/hell/Projects/TestAssignment/C#/actsoft_testassignment/VirtualSlotMachine/VirtualSlotMachine/obj/Debug/netcoreapp2.2/VirtualSlotMachine.pdb
