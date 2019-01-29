@@ -6,36 +6,21 @@ $(document).ready(function() {
         imgHeight = 607,
         //7, 3Bar, 2Bar, 2Bar, 1Bar, 1Bar, 1Bar, Cherry, Blank, Blank, Blank, Blank, Blank, Blank, Blank, Blank, Blank
         posArr = [
-            505,
-            404,
-            505,
-            303,
-            505,
-            202,
-            505,
-            202,
-            505,
-            101,
-            505,
-            101,
-            505,
-            101,
-            505,
             0, //cherry
-            505
-            // 101, //bar 
-            // 202, //bar_bar
-            // 303, //bar_bar_bar
-            // 404, //seven
-            // 505 //empty
+            101, //empty
+            202, //seven
+            303, //bar_bar_bar
+            404, //bar_bar
+            505 //bar
         ];
 
     var win = [];
-    win[0] = win[0] = win[0] = 1;
-    win[101] = win[202] = win[303] = 2;
-    win[202] = win[202] = win[202] = 3;
-    win[303] = win[303] = win[303] = 4;
-    win[404] = win[404] = win[404] = 5;
+    win[0] = 1;
+    win[101] = 2;
+    win[202] = 3;
+    win[303] = 4;
+    win[404] = 5;
+    win[505] = 6;
 
     var balance = 100;
     var currentBet = 1;
@@ -171,11 +156,24 @@ $(document).ready(function() {
         $('#maxbet').attr("disabled", true);
     }
 
+    function winner(bet, a, b, c) {
+        if (a == 1 || b == 1 || c == 1) return 2 * bet;
+        if ((a == 4 || a == 5 || a == 6) && ((b == 4 || b == 5 || b == 6)) && ((c == 4 || c == 5 || c == 6))) return 5 * bet;
+        if (a == 6 && b == 6 && c == 6) return 25 * bet;
+        if (a == 5 && b == 5 && c == 5) return 50 * bet;
+        if (a == 4 && b == 4 && c == 4) return 100 * bet;
+        if (a == 3 && b == 3 && c == 3 && bet == 1) return 300;
+        if (a == 3 && b == 3 && c == 3 && bet == 2) return 600;
+        if (a == 3 && b == 3 && c == 3 && bet == 3) return 1500;
+        
+    }
+    
     function printResult() {
         var res;
-        if(win[a.pos] === win[b.pos] && win[a.pos] === win[c.pos]) {
+        var count = winner(currentBet, win[a.pos], win[b.pos], win[c.pos]);
+        if(count > 0) {
             res = "You Win!";
-            balance += 10;
+            balance += count;
             $('#balance').html("Balance: " + balance)
         } else {
             res = "You Lose";
